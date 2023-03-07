@@ -1,10 +1,10 @@
-import { createSLice } from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  numOfCakes: 10
+  numOfCakes: 20
 };
 
-const cakeSlice = createSLice({
+const cakeSlice = createSlice({
   name: 'cake',
   initialState,
   reducers: {
